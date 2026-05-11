@@ -5,19 +5,27 @@
 
 :root {
   /* ============================================
-     FONT FAMILIES
+     FONT FAMILIES (Individual)
      ============================================ */
   --font-inter: "Inter", sans-serif;
   --font-roboto: "Roboto", sans-serif;
   --font-open-sans: "Open Sans", sans-serif;
   --font-lato: "Lato", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
-  --font-poppins: "Poppins", sans-serif;
-  --font-source-sans-pro: "Source Sans Pro", sans-serif;
-  --font-nunito: "Nunito", sans-serif;
-  --font-raleway: "Raleway", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-archivo-black: "Archivo Black", sans-serif;
   --font-merriweather: "Merriweather", serif;
+  --font-diplomata: "Diplomata", serif;
   --font-lobster: "Lobster", cursive;
+  --font-dancing-script: "Dancing Script", cursive;
+
+  /* ============================================
+     DEFAULT FONT FAMILIES
+     ============================================ */
+  --font-sans: var(--font-inter);
+  --font-mono: monospace;
+  --font-display: var(--font-merriweather);
+
 
   /* ============================================
      FONT SIZES — Modular Scale (1.250 — Major Third)
